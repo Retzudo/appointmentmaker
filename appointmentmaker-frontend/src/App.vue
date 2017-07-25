@@ -12,5 +12,5 @@ export default {
 </script>
 
 <style lang="css">
-    @import '~bulma/css/bulma.css';
+    @import '~semantic-ui-css/semantic.css';
 </style>
