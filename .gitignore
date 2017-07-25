@@ -3,4 +3,5 @@ __pycache__/
 env/
 .idea/
 
+*.sqlite3
 appointmentmaker-frontend/node_modules

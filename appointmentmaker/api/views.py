@@ -17,7 +17,6 @@ class SetApproved(BasePermission):
 
 class CompanyViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.CompanySerializer
-    permission_classes = (IsAuthenticated,)
 
     def get_queryset(self):
         return self.request.user.companies.all()
